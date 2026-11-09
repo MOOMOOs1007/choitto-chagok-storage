@@ -8,10 +8,16 @@ v1.4.0부터 프로그램을 실행할 때 이 저장소의 최신 GitHub Releas
 
 릴리스에는 다음 파일을 첨부합니다.
 
-- `choiagain-storage-v1.5.8.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
-- `choitto-chagok-v1.5.8.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
+- `choiagain-storage-v1.5.9.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
+- `choitto-chagok-v1.5.9.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
 
 v1.4.2부터 자동 업데이트는 `choiagain-storage`로 시작하는 EXE만 설치 파일로 인식합니다.
+
+## v1.5.9
+
+- 실제 SOOP 구독 플러스 판별값 확인을 위한 최소 진단 로그를 추가했습니다.
+- 채팅 내용·닉네임·쿠키는 기록하지 않으며 사용자 ID, 숫자 등급 필드와 최종 판정만 기록합니다.
+- 로그 위치: `%LOCALAPPDATA%\최또의 차곡창고\chat-grade.log`
 
 ## v1.5.8
 
