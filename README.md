@@ -8,10 +8,14 @@ v1.4.0부터 프로그램을 실행할 때 이 저장소의 최신 GitHub Releas
 
 릴리스에는 다음 파일을 첨부합니다.
 
-- `choiagain-storage-v1.5.4.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
-- `choitto-chagok-v1.5.4.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
+- `choiagain-storage-v1.5.5.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
+- `choitto-chagok-v1.5.5.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
 
 v1.4.2부터 자동 업데이트는 `choiagain-storage`로 시작하는 EXE만 설치 파일로 인식합니다.
+
+## v1.5.5
+
+- Google 시트 내보내기 성공 문구를 `데이터 내보내기 완료`로 통일했습니다.
 
 ## v1.5.4
 
