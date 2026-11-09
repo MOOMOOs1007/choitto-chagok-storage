@@ -8,10 +8,15 @@ v1.4.0부터 프로그램을 실행할 때 이 저장소의 최신 GitHub Releas
 
 릴리스에는 다음 파일을 첨부합니다.
 
-- `choiagain-storage-v1.5.1.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
-- `choitto-chagok-v1.5.1.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
+- `choiagain-storage-v1.5.2.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
+- `choitto-chagok-v1.5.2.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
 
 v1.4.2부터 자동 업데이트는 `choiagain-storage`로 시작하는 EXE만 설치 파일로 인식합니다.
+
+## v1.5.2
+
+- 버전이 포함된 `choiagain-storage-v버전.exe` 설치 파일을 자동 업데이트가 찾지 못하던 문제를 수정했습니다.
+- 기존 버전의 자동 업데이트를 위해 릴리스에 `choiagain-storage.exe` 호환 파일도 제공합니다.
 
 ## v1.5.1
 
