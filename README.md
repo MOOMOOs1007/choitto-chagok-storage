@@ -8,10 +8,16 @@ v1.4.0부터 프로그램을 실행할 때 이 저장소의 최신 GitHub Releas
 
 릴리스에는 다음 파일을 첨부합니다.
 
-- `choiagain-storage-v1.5.9.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
-- `choitto-chagok-v1.5.9.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
+- `choiagain-storage-v1.5.10.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
+- `choitto-chagok-v1.5.10.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
 
 v1.4.2부터 자동 업데이트는 `choiagain-storage`로 시작하는 EXE만 설치 파일로 인식합니다.
+
+## v1.5.10
+
+- 인증 채팅 연결에서 JOIN 응답 후 누락됐던 `ENTER_INFO(0012)` 패킷 전송을 추가했습니다.
+- 서버가 `CHUSER_EXTEND(0127)` 구독 등급 목록을 보내도록 연결 절차를 수정했습니다.
+- 진단 로그에서 모든 구독자의 확장 상태가 `missing`이던 근본 원인을 수정했습니다.
 
 ## v1.5.9
 
