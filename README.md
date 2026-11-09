@@ -8,10 +8,18 @@ v1.4.0부터 프로그램을 실행할 때 이 저장소의 최신 GitHub Releas
 
 릴리스에는 다음 파일을 첨부합니다.
 
-- `choiagain-storage-v1.5.2.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
-- `choitto-chagok-v1.5.2.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
+- `choiagain-storage-v1.5.3.exe`: 콘솔 없이 실행되는 GUI 설치 마법사
+- `choitto-chagok-v1.5.3.zip`: 압축을 풀고 바로 실행할 수 있는 휴대용 패키지
 
 v1.4.2부터 자동 업데이트는 `choiagain-storage`로 시작하는 EXE만 설치 파일로 인식합니다.
+
+## v1.5.3
+
+- GitHub 브라우저 다운로드 URL에서 HTTP 504가 발생하던 원인을 확인했습니다.
+- 업데이트 다운로드를 GitHub 릴리스 자산 API 방식으로 변경했습니다.
+- 일시적인 네트워크 오류 및 5xx 응답에 최대 4회 재시도합니다.
+- 실패 원인과 시각을 `%LOCALAPPDATA%\최또의 차곡창고\update.log`에 기록합니다.
+- v1.4.2 사용자의 전환을 위해 새 JAR만 설치하는 소형 `choiagain-storage.exe`를 함께 제공합니다.
 
 ## v1.5.2
 
